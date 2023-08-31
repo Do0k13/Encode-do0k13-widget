@@ -12,8 +12,8 @@ const Message = styled.div`
   gap: 1.2em;
 `;
 const Chat = styled.div`
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 10px;
@@ -21,10 +21,20 @@ const Chat = styled.div`
   margin: 0 auto;
 `;
 const MessageCnt = styled.div`
-  background-color: #355;
+  background-color: #fff;
   padding: 8px 12px;
   border-radius: 10px;
   font-size: ${state.textSize}px;
+`;
+const Header = styled.div`
+  width: 100%;
+  padding: 50px 10px;
+  font-weight: 600;
+  font-size: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #ffffff;
 `;
 const WidgetCnt = styled.div`
   font-size: ${state.widgetSize}px;
@@ -69,7 +79,15 @@ return (
     ))}
   </>
 ); */
+
   <Chat>
+    <Header>
+      <p>Near Encode Bootcamp</p>
+      <p>July-August 2023</p>
+      <button>Chat</button>
+      <button>Notifications</button>
+      <button>Stake</button>
+    </Header>
     {messages.map((message) => (
       <Message key={message.id}>
         <Widget
