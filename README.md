@@ -13,4 +13,4 @@ This is an application running on Near Protocol using the NEAR Blockchain Operat
 
 [**Index Feed**](https://near.org/near/widget/ComponentDetailsPage?src=mob.near/widget/IndexFeed)
 
-[*Near Staking**](https://near.org/near/widget/ComponentDetailsPage?src=ref-admin.near/widget/xBox)
+[**Near Staking**](https://near.org/near/widget/ComponentDetailsPage?src=ref-admin.near/widget/xBox)
